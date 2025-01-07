@@ -65,12 +65,19 @@ Assumptions:
 - **Metric Definition**: Annual Growth = New Listings in the current year.
 - **Finding**: The platform's property supply has grown each year. However, the analysis notes a limitation in confirming whether these new properties were successfully booked by customers, especially for data pre-2016.
 
+![image](https://github.com/user-attachments/assets/0c87550a-c86b-488a-95e9-915239fb35f5)
+
+
 ### RevPAN (Revenue Per Available Night)
 - **Metric Definition**: 
   - RevPAN = ADR (Average Daily Rate) × Occupancy Rate.
   - ADR = Total Listing Revenue / Nights Booked.
   - Occupancy Rate = Nights Booked / Total Nights Available.
 - **Finding**: RevPAN declined at the end of 2016 but started recovering in mid-2017. The analysis suggests adjusting prices based on RevPAN to improve revenue potential during low-occupancy periods.
+
+![image](https://github.com/user-attachments/assets/4f723801-6f4c-424b-8e64-dc1160daabe2)
+
+
 
 ---
 
@@ -81,6 +88,8 @@ Assumptions:
   - Monthly Neighborhood RevPAN = Total Revenue in Neighborhood / Total Available Nights in Neighborhood.
 - **Finding**: Some neighborhoods perform better than others, with a significant variation in RevPAN. Airbnb should explore why certain areas underperform and consider adjusting pricing strategies in these neighborhoods to attract more guests.
 
+![image](https://github.com/user-attachments/assets/58fb50d3-4f10-4188-8b02-519ecb9c98ab)
+
 ---
 
 ## Outlier Detection
@@ -88,8 +97,14 @@ Assumptions:
 ### Time Range with Unusual Behavior
 - **Key Finding**: During the Boston Marathon in April 2017, occupancy rates dropped while prices spiked. This suggests that hosts raised prices in anticipation of increased demand, but the high prices discouraged bookings. Adding a Boolean variable (`Event`) to mark special events could improve future analyses.
 
+![image](https://github.com/user-attachments/assets/0232f92a-e9fd-4d23-a218-f8f049a5a425)
+
+
 ### Bed and Price Anomalies
 - **Key Finding**: Some properties had unusual values, such as 0 beds or 16 beds. These values were addressed by reclassifying studio apartments (0 beds) to have 1 bed and converting NA values to the average bed count. Outliers in price data (e.g., properties priced over $1000) were retained, as there was demand for high-end properties.
+
+![image](https://github.com/user-attachments/assets/8e5efb39-d594-4d26-80e8-353717bf0492)
+
 
 ---
 
