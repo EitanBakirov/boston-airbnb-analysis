@@ -4,6 +4,8 @@
 
 This project provides an in-depth analysis of Airbnb listings in Boston, focusing on property types, pricing strategies, occupancy rates, and guest satisfaction. The goal is to offer actionable insights and recommendations to improve Airbnb's revenue and optimize host performance. The analysis was performed using R, employing key metrics such as **RevPAN** (Revenue Per Available Night) to assess revenue efficiency and guide pricing adjustments.
 
+Project final submission PDF available here: [English](https://github.com/EitanBakirov/boston-airbnb-analysis/blob/main/Final%20Submission.pdf), [Hebrew](https://github.com/EitanBakirov/boston-airbnb-analysis/blob/main/%D7%9E%D7%A1%D7%9E%D7%9A%20%D7%9E%D7%A1%D7%9B%D7%9D.pdf)
+
 ---
 
 ## Table of Contents
